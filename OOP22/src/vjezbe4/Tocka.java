@@ -1,3 +1,5 @@
+package vjezbe4;
+
 public class Tocka {
     private int x = 0;
     private int y = 0;

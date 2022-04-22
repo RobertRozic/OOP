@@ -1,3 +1,5 @@
+package vjezbe3;
+
 public class Linija {
     private Tocka t1 = new Tocka();
     private Tocka t2 = new Tocka(1, 2);
