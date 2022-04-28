@@ -4,6 +4,8 @@ public class Tocka {
     private int x = 0;
     private int y = 0;
 
+    //private String naziv = "Artikal0";
+
     // Konstruktor
     public Tocka() {
         System.out.println("Pozvan konstruktor 1");

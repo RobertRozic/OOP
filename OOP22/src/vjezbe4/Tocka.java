@@ -39,4 +39,15 @@ public class Tocka {
     public static double udaljenostStaticka(Tocka t1, Tocka t2) {
         return Math.sqrt(Math.pow(t1.getX()-t2.getX(), 2) + Math.pow(t1.getY() - t2.getY(), 2));
     }
+
+    @Override
+    public String toString() {
+        return "(" + this.x + "," + this.y + ")";
+        //return super.toString();
+    }
+
+    public boolean equals(Tocka t) {
+        return this.x == t.x && this.y == t.y;
+        //return super.equals(obj);
+    }
 }
